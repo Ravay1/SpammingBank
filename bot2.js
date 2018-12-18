@@ -17,49 +17,49 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-—« »'){
+    if(message.content === '-√ë√á√ä√à'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-„»·€'){
+    if(message.content === '-√£√à√°√õ'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-—Ì»'){
+    if(message.content === '-√ë√≠√à'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-—« »'){
+    if(message.content === '-√ë√á√ä√à'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-„»·€'){
+    if(message.content === '-√£√à√°√õ'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-—Ì»'){
+    if(message.content === '-√ë√≠√à'){
         message.channel.send('#credits')
     }
 });
 
 
 
-client.on('message', message => { // ·«  €Ì— ‘∆ ⁄‘«‰ „«  Œ—» «·œ‰Ì«
+client.on('message', message => { // √°√á √ä√õ√≠√ë √î√Ü √ö√î√á√§ √£√á √ä√é√ë√à √á√°√è√§√≠√á
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$ MSBANK **[ " ${x} " ]`)
+        message.channel.send(`**ESP **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,12 +68,12 @@ if (message.content === '!spam') {
       }
 });
 
-client2.on('message', message => { // ·«  €Ì— ‘∆ ⁄‘«‰ „«  Œ—» «·œ‰Ì«
+client2.on('message', message => { // √°√á √ä√õ√≠√ë √î√Ü √ö√î√á√§ √£√á √ä√é√ë√à √á√°√è√§√≠√á
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$,$$$ MSBANK **[ " ${x} " ]`)
+        message.channel.send(`**ESP **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -95,7 +95,7 @@ client.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
   if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`·Ì” ·œÌﬂ ’·«ÕÌ« `**');
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`√°√≠√ì √°√è√≠√ü √ï√°√á√ç√≠√á√ä`**');
    message.channel.sendMessage(args.join("519498723558948875"))
    message.delete()
   }
@@ -119,7 +119,7 @@ client2.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
   if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`·Ì” ·œÌﬂ ’·«ÕÌ« `**');
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`√°√≠√ì √°√è√≠√ü √ï√°√á√ç√≠√á√ä`**');
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -128,5 +128,5 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
 
 
-client.login(process.env.TOKEN2);// ·«  €Ì— ›ÌÂ« ‘Ì¡
-client2.login(process.env.TOKEN22);// ·«  €Ì— ›ÌÂ« ‘Ì¡
+client.login(process.env.TOKEN2);// √°√á √ä√õ√≠√ë √ù√≠√•√á √î√≠√Å
+client2.login(process.env.TOKEN22);// √°√á √ä√õ√≠√ë √ù√≠√•√á √î√≠√Å
